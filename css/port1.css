@@ -6,7 +6,7 @@
 }
 
  .background {
-   background-color: #2C3539
+   background-color: #2C3539;
  }
 
 .name {
@@ -35,4 +35,131 @@
 
 footer {
   display: flex;
+}
+
+.nameabout {
+  font-family:"brush-script MT italic";
+  font-size:12px;
+  padding-left: 10px;
+}
+
+.nameabout a {
+    color:black;
+}
+
+
+
+.headertext h1{
+  font-family: "Lucida Sans";
+  font-size:25px;
+  padding-left: 10px;
+  text-decoration:underline;
+}
+
+ .aboutpara p{
+  font-family:"modern no.2";
+  font-size: 14px;
+  padding:15px;
+  margin-top:30px;
+  color:white;
+}
+
+.aboutpara {
+    background:#2C3539;
+}
+
+.aboutfooter h3{
+  font-family: "Lucida Sans";
+  font-size:20px;
+}
+
+.aboutfooter a {
+  margin-top: 15px;
+}
+
+.nameart {
+  font-family:"brush-script MT italic";
+  font-size:12px;
+  padding-left: 10px;
+}
+
+.nameart a {
+  color:black;
+}
+
+.imagesart h1 {
+  font-family:"Lucida Sans";
+  font-size: 25px;
+  color:white;
+  padding: 10px;
+}
+
+.imagesart p {
+  font-family:"Modern No. 2";
+  font-size: 15px;
+  color:white;
+  padding: 10px;
+}
+
+.imagesart li {
+    background:#2C3539;
+    margin:30px;
+}
+
+.namedesign {
+  font-family:"brush-script MT italic";
+  font-size:12px;
+  padding-left: 10px;
+}
+
+.namedesign a {
+  color:black;
+}
+
+.imagesdesign h1 {
+  font-family:"Lucida Sans";
+  font-size: 25px;
+  color:white;
+  padding: 10px;
+}
+
+.imagesdesign p {
+  font-family:"Modern No. 2";
+  font-size: 15px;
+  color:white;
+  padding: 10px;
+}
+
+.imagesdesign li {
+    background:#2C3539;
+    margin:30px;
+}
+
+.namephoto {
+  font-family:"brush-script MT italic";
+  font-size:12px;
+  padding-left: 10px;
+}
+
+.namephoto a {
+  color:black;
+}
+
+.imagesphoto h1 {
+  font-family:"Lucida Sans";
+  font-size: 25px;
+  color:white;
+  padding: 10px;
+}
+
+.imagesphoto p {
+  font-family:"Modern No. 2";
+  font-size: 15px;
+  color:white;
+  padding: 10px;
+}
+
+.imagesphoto li {
+    background:#2C3539;
+    margin:30px;
 }

@@ -1,0 +1,29 @@
+.header h1 {
+  font-family: "Lucida Sans";
+  font-size:25px;
+  color:white;
+  padding-left: 10px;
+}
+
+ .background {
+   background-color: #2C3539
+ }
+
+.name {
+  font-family:"brush-script MT italic";
+  font-size:12px;
+  color:white;
+  padding-left: 10px;
+}
+
+.homelist li{
+  font-family:"Lucida Sans";
+  font-size: 15px;
+  color:white;
+  padding-top: 30px;
+  text-decoration: underline;
+}
+
+footer {
+  display: flex;
+}

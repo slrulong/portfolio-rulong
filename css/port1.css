@@ -16,6 +16,10 @@
   padding-left: 10px;
 }
 
+.name a{
+  color:white;
+}
+
 .homelist li{
   font-family:"Lucida Sans";
   font-size: 15px;
@@ -23,6 +27,11 @@
   padding-top: 30px;
   text-decoration: underline;
 }
+
+.homelist a{
+  color:white;
+}
+
 
 footer {
   display: flex;

@@ -212,19 +212,39 @@
   }
   }
 @media (min-width:980px){
-nav li {
+.navhome li {
   display:inline;
   padding-right: 20px;
 }
-nav a {
+.navhome a {
   color:white;
 }
-nav a:hover{
+.navhome a:hover{
   color: grey;
   text-decoration: none;
 }
 .gridhome li{
   display:inline;
 }
+.headertext h1{
+  float:right;
+}
+.navs li {
+  display:inline;
+  padding-right: 20px;
+  float:right;
+}
+.navs a {
+  color:black;
+}
+.navs a:hover{
+  color: grey;
+  text-decoration: none;
+}
+.nameabout {
+  font-size:20px;
+}
+.aboutpara li{
 
+}
 }

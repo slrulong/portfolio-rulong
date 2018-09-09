@@ -191,4 +191,23 @@
   .homelist li {
     font-size:25px;
   }
-}
+  .imageofme {
+    width:400px;
+    padding-left:10px;
+  }
+  .headertext h1 {
+    font-size:30px;
+  }
+  .aboutfooter h3{
+    padding-left:490px;
+  }
+  .namephoto {
+    font-size:20px;
+  }
+  .namedesign {
+    font-size:20px;
+  }
+  .nameart {
+    font-size:20px;
+  }
+  }

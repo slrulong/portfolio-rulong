@@ -1,3 +1,4 @@
+
 .header h1 {
   font-family: "Lucida Sans";
   font-size:25px;
@@ -5,24 +6,26 @@
   padding-left: 10px;
 }
 
- .background {
-   background-color: #2C3539;
+
+ .backgroundcolorindex {
+   background-color:#666362;
  }
 
-.name {
+
+.nameindex {
   font-family:"brush-script MT italic";
   font-size:12px;
   color:white;
   padding-left: 10px;
 }
 
-.name a{
+.nameindex a{
   color:white;
 }
 
 .homelist li{
   font-family:"Lucida Sans";
-  font-size: 15px;
+  font-size: 20px;
   color:white;
   padding-top: 30px;
   text-decoration: underline;
@@ -33,8 +36,9 @@
 }
 
 
-footer {
-  display: flex;
+.indexfooter a{
+  display: inline;
+  float:right;
 }
 
 .nameabout {
@@ -65,7 +69,7 @@ footer {
 }
 
 .aboutpara {
-    background:#2C3539;
+    background:#666362;
 }
 
 .aboutfooter h3{
@@ -74,7 +78,8 @@ footer {
 }
 
 .aboutfooter a {
-  margin-top: 15px;
+  margin-top: -29px;
+  float:right;
 }
 
 .nameart {
@@ -92,6 +97,7 @@ footer {
   font-size: 25px;
   color:white;
   padding: 10px;
+  margin-top:5px;
 }
 
 .imagesart p {
@@ -99,10 +105,11 @@ footer {
   font-size: 15px;
   color:white;
   padding: 10px;
+  margin-top:-15px;
 }
 
 .imagesart li {
-    background:#2C3539;
+    background:#666362;
     margin:30px;
 }
 
@@ -121,6 +128,7 @@ footer {
   font-size: 25px;
   color:white;
   padding: 10px;
+  margin-top:5px;
 }
 
 .imagesdesign p {
@@ -128,10 +136,11 @@ footer {
   font-size: 15px;
   color:white;
   padding: 10px;
+  margin-top:-15px;
 }
 
 .imagesdesign li {
-    background:#2C3539;
+    background:#666362;
     margin:30px;
 }
 
@@ -150,6 +159,7 @@ footer {
   font-size: 25px;
   color:white;
   padding: 10px;
+  margin-top:5px;
 }
 
 .imagesphoto p {
@@ -157,9 +167,14 @@ footer {
   font-size: 15px;
   color:white;
   padding: 10px;
+  margin-top:-15px;
 }
 
 .imagesphoto li {
-    background:#2C3539;
+    background:#666362;
     margin:30px;
+}
+
+@media (min-width:768px){
+
 }

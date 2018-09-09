@@ -180,5 +180,15 @@
 }
 
 @media (min-width:768px){
-
+  .header h1{
+    font-size:40px;
+    padding-bottom:30px;
+    padding-top:20px;
+  }
+  .nameindex {
+    font-size:20px;
+  }
+  .homelist li {
+    font-size:25px;
+  }
 }

@@ -28,14 +28,18 @@
   font-size: 20px;
   color:white;
   padding-top: 30px;
-  text-decoration: underline;
 }
 
 .homelist a{
   color:white;
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
+  text-decoration:none;
 }
 
-
+.homelist a:hover{
+  color: grey;
+}
 .indexfooter a{
   display: inline;
   float:right;

@@ -13,7 +13,7 @@
 
 
 .nameindex {
-  font-family:"brush-script MT italic";
+  font-family:"Pacifico";
   font-size:12px;
   color:white;
   padding-left: 10px;
@@ -46,7 +46,7 @@
 }
 
 .nameabout {
-  font-family:"brush-script MT italic";
+  font-family:"Pacifico";
   font-size:12px;
   padding-left: 10px;
 }
@@ -87,7 +87,7 @@
 }
 
 .nameart {
-  font-family:"brush-script MT italic";
+  font-family:"Pacifico";
   font-size:12px;
   padding-left: 10px;
 }
@@ -118,7 +118,7 @@
 }
 
 .namedesign {
-  font-family:"brush-script MT italic";
+  font-family:"Pacifico";
   font-size:12px;
   padding-left: 10px;
 }
@@ -149,7 +149,7 @@
 }
 
 .namephoto {
-  font-family:"brush-script MT italic";
+  font-family:"Pacifico";
   font-size:12px;
   padding-left: 10px;
 }
@@ -179,6 +179,10 @@
     margin:30px;
 }
 
+.imagesphoto img {
+  width:100%
+}
+
 @media (min-width:768px){
   .header h1{
     font-size:40px;
@@ -192,7 +196,6 @@
     font-size:25px;
   }
   .imageofme {
-    width:400px;
     padding-left:10px;
   }
   .headertext h1 {
@@ -202,6 +205,9 @@
     padding-left:490px;
   }
   .namephoto {
+    font-size:20px;
+  }
+  .nameabout {
     font-size:20px;
   }
   .namedesign {
@@ -246,9 +252,7 @@
 .gridhome li{
   display:inline;
 }
-.headertext h1{
-  float:right;
-}
+
 .navs li {
   display:inline;
   padding-right: 20px;

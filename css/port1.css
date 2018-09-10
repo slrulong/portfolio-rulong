@@ -5,12 +5,21 @@
   color:white;
   padding-left: 10px;
 }
-
-
+.navhome a {
+  color:white;
+}
+.navs a{
+  color:black;
+}
+.navbar-toggle .icon-bar{
+  background-color:white;
+}
  .backgroundcolorindex {
    background-color:#666362;
  }
-
+.navs .icon-bar{
+  background-color:black;
+}
 
 .nameindex {
   font-family:"Pacifico";
@@ -28,6 +37,7 @@
   font-size: 20px;
   color:white;
   padding-top: 30px;
+    padding-left:10px;
 }
 
 .homelist a{
@@ -35,6 +45,7 @@
   border-bottom: 2px solid white;
   padding-bottom: 5px;
   text-decoration:none;
+  display:block;
 }
 
 .homelist a:hover{
@@ -60,15 +71,15 @@
 .headertext h1{
   font-family: "Lucida Sans";
   font-size:25px;
-  padding-left: 10px;
   text-decoration:underline;
+  margin-left:-15px;
 }
 
  .aboutpara p{
   font-family:"modern no.2";
   font-size: 14px;
   padding:15px;
-  margin-top:30px;
+  margin-top:10px;
   color:white;
 }
 
@@ -102,6 +113,7 @@
   color:white;
   padding: 10px;
   margin-top:5px;
+  margin-left:30px;
 }
 
 .imagesart p {
@@ -110,11 +122,13 @@
   color:white;
   padding: 10px;
   margin-top:-15px;
+  margin-left:30px;
 }
 
 .imagesart li {
     background:#666362;
     margin:30px;
+    width:100%;
 }
 
 .namedesign {
@@ -127,25 +141,29 @@
   color:black;
 }
 
-.imagesdesign h1 {
+.homelist li h1 {
   font-family:"Lucida Sans";
   font-size: 25px;
   color:white;
   padding: 10px;
   margin-top:5px;
+  margin-left:30px;
 }
 
-.imagesdesign p {
+.homelist li p {
   font-family:"Modern No. 2";
   font-size: 15px;
   color:white;
   padding: 10px;
   margin-top:-15px;
+  margin-left:30px;
+  padding-left:10px;
 }
 
-.imagesdesign li {
+.homelist li li {
     background:#666362;
     margin:30px;
+    width:100%;
 }
 
 .namephoto {
@@ -157,6 +175,33 @@
 .namephoto a {
   color:black;
 }
+.imagesdesign h1 {
+  font-family:"Lucida Sans";
+  font-size: 25px;
+  color:white;
+  padding: 10px;
+  margin-top:5px;
+  margin-left:30px;
+}
+
+.imagesdesign p {
+  font-family:"Modern No. 2";
+  font-size: 15px;
+  color:white;
+  padding: 10px;
+  margin-top:-15px;
+  margin-left:30px;
+}
+
+.imagesdesign li {
+    background:#666362;
+    margin:30px;
+    width:100%;
+}
+
+.imagesdesign img {
+  width:100%
+}
 
 .imagesphoto h1 {
   font-family:"Lucida Sans";
@@ -164,6 +209,7 @@
   color:white;
   padding: 10px;
   margin-top:5px;
+  margin-left:30px;
 }
 
 .imagesphoto p {
@@ -172,11 +218,13 @@
   color:white;
   padding: 10px;
   margin-top:-15px;
+  margin-left:30px;
 }
 
 .imagesphoto li {
     background:#666362;
     margin:30px;
+    width:100%;
 }
 
 .imagesphoto img {
@@ -236,6 +284,7 @@
     color: grey;
     text-decoration: none;
   }
+
   }
 @media (min-width:980px){
 .navhome li {
@@ -261,6 +310,7 @@
 .navs a {
   color:black;
 }
+
 .navs a:hover{
   color: grey;
   text-decoration: none;
@@ -269,7 +319,17 @@
   font-size:20px;
 }
 .aboutpara li{
-
+}
+.headertext h1{
+  margin-left:70px;
+}
+.aboutfooter h3{
+  font-family: "Lucida Sans";
+  font-size:20px;
 }
 
+.aboutfooter a {
+  margin-top: -29px;
+  float:right;
+}
 }
